@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-02-15T08:51:39.878Z</updated>
+  <updated>2020-02-15T08:55:50.314Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
     <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
     <published>2020-01-14T05:07:23.000Z</published>
-    <updated>2020-02-15T08:51:39.878Z</updated>
+    <updated>2020-02-15T08:55:50.314Z</updated>
     
     <summary type="html">
     
@@ -56,7 +56,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
     <published>2018-10-11T09:22:38.000Z</published>
-    <updated>2020-02-15T08:51:39.878Z</updated>
+    <updated>2020-02-15T08:55:50.314Z</updated>
     
     <summary type="html">
     
@@ -88,11 +88,47 @@
   </entry>
   
   <entry>
+    <title>MySQL 教程：基础语句</title>
+    <link href="https://www.zhwei.cn/databases-mysql-base-sql/"/>
+    <id>https://www.zhwei.cn/databases-mysql-base-sql/</id>
+    <published>2018-10-11T09:14:58.000Z</published>
+    <updated>2020-02-15T08:55:50.310Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;6c182d8d&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;数据库基础操作&quot;&gt;&lt;a href=&quot;#数据库基础操作&quot; class=&quot;headerlink&quot; title=&quot;数据库基础操作&quot;&gt;&lt;/a&gt;数据库基础操作&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.zhwei.cn/tags/MySQL/"/>
+    
+      <category term="databases" scheme="https://www.zhwei.cn/tags/databases/"/>
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
+    
+      <category term="sql基础" scheme="https://www.zhwei.cn/tags/sql%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL 教程：多表查询</title>
     <link href="https://www.zhwei.cn/databases-mysql-many-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-many-query/</id>
     <published>2018-10-10T09:23:50.000Z</published>
-    <updated>2020-02-15T08:51:39.878Z</updated>
+    <updated>2020-02-15T08:55:50.314Z</updated>
     
     <summary type="html">
     
