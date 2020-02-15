@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-02-15T09:08:07.631Z</updated>
+  <updated>2020-02-15T09:09:36.227Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.zhwei.cn/docker-build-image-github-actions/"/>
     <id>https://www.zhwei.cn/docker-build-image-github-actions/</id>
     <published>2020-01-22T05:08:22.000Z</published>
-    <updated>2020-02-15T09:08:07.631Z</updated>
+    <updated>2020-02-15T09:09:36.227Z</updated>
     
     <summary type="html">
     
@@ -57,7 +57,7 @@
     <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
     <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
     <published>2020-01-14T05:07:23.000Z</published>
-    <updated>2020-02-15T09:08:07.639Z</updated>
+    <updated>2020-02-15T09:09:36.235Z</updated>
     
     <summary type="html">
     
@@ -92,7 +92,7 @@
     <link href="https://www.zhwei.cn/github-actions-deploy-hexo-ssh/"/>
     <id>https://www.zhwei.cn/github-actions-deploy-hexo-ssh/</id>
     <published>2020-01-11T03:08:22.000Z</published>
-    <updated>2020-02-15T09:08:07.631Z</updated>
+    <updated>2020-02-15T09:09:36.227Z</updated>
     
     <summary type="html">
     
@@ -128,7 +128,7 @@
     <link href="https://www.zhwei.cn/github-actions-deploy-hexo-api/"/>
     <id>https://www.zhwei.cn/github-actions-deploy-hexo-api/</id>
     <published>2020-01-11T02:18:33.000Z</published>
-    <updated>2020-02-15T09:08:07.635Z</updated>
+    <updated>2020-02-15T09:09:36.231Z</updated>
     
     <summary type="html">
     
@@ -160,11 +160,47 @@
   </entry>
   
   <entry>
+    <title>Github Actions：通过 SSH 自动备份代码到托管网站</title>
+    <link href="https://www.zhwei.cn/github-actions-backup-code/"/>
+    <id>https://www.zhwei.cn/github-actions-backup-code/</id>
+    <published>2020-01-09T02:22:11.000Z</published>
+    <updated>2020-02-15T09:09:36.227Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;e6cefb85&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="持续集成和交付" scheme="https://www.zhwei.cn/categories/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E5%92%8C%E4%BA%A4%E4%BB%98/"/>
+    
+    
+      <category term="Github Actions" scheme="https://www.zhwei.cn/tags/Github-Actions/"/>
+    
+      <category term="持续集成" scheme="https://www.zhwei.cn/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+      <category term="CI/CD" scheme="https://www.zhwei.cn/tags/CI-CD/"/>
+    
+      <category term="SSH" scheme="https://www.zhwei.cn/tags/SSH/"/>
+    
+      <category term="Hexo" scheme="https://www.zhwei.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL 教程：增删改查</title>
     <link href="https://www.zhwei.cn/databases-mysql-normal-operate/"/>
     <id>https://www.zhwei.cn/databases-mysql-normal-operate/</id>
     <published>2018-10-11T09:26:19.000Z</published>
-    <updated>2020-02-15T09:08:07.635Z</updated>
+    <updated>2020-02-15T09:09:36.231Z</updated>
     
     <summary type="html">
     
@@ -200,7 +236,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
     <published>2018-10-11T09:22:38.000Z</published>
-    <updated>2020-02-15T09:08:07.639Z</updated>
+    <updated>2020-02-15T09:09:36.235Z</updated>
     
     <summary type="html">
     
@@ -236,7 +272,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-base-sql/"/>
     <id>https://www.zhwei.cn/databases-mysql-base-sql/</id>
     <published>2018-10-11T09:14:58.000Z</published>
-    <updated>2020-02-15T09:08:07.635Z</updated>
+    <updated>2020-02-15T09:09:36.231Z</updated>
     
     <summary type="html">
     
@@ -272,7 +308,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-many-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-many-query/</id>
     <published>2018-10-10T09:23:50.000Z</published>
-    <updated>2020-02-15T09:08:07.639Z</updated>
+    <updated>2020-02-15T09:09:36.235Z</updated>
     
     <summary type="html">
     
@@ -308,7 +344,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-aggregate-function/"/>
     <id>https://www.zhwei.cn/databases-mysql-aggregate-function/</id>
     <published>2018-10-09T09:27:16.000Z</published>
-    <updated>2020-02-15T09:08:07.635Z</updated>
+    <updated>2020-02-15T09:09:36.231Z</updated>
     
     <summary type="html">
     
