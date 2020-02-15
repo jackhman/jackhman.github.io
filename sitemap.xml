@@ -2,107 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.zhwei.cn/databases-mysql-singl-query/</loc>
+    <loc>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</loc>
     
-    <lastmod>2020-02-15T08:58:30.880Z</lastmod>
+    <lastmod>2020-02-15T09:01:11.353Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</loc>
+    <loc>https://www.zhwei.cn/databases-mysql-singl-query/</loc>
     
-    <lastmod>2020-02-15T08:58:30.880Z</lastmod>
+    <lastmod>2020-02-15T09:01:11.349Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.zhwei.cn/databases-mysql-many-query/</loc>
     
-    <lastmod>2020-02-15T08:58:30.880Z</lastmod>
+    <lastmod>2020-02-15T09:01:11.349Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.zhwei.cn/databases-mysql-aggregate-function/</loc>
     
-    <lastmod>2020-02-15T08:58:30.876Z</lastmod>
+    <lastmod>2020-02-15T09:01:11.349Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.zhwei.cn/databases-mysql-base-sql/</loc>
     
-    <lastmod>2020-02-15T08:58:30.876Z</lastmod>
+    <lastmod>2020-02-15T09:01:11.349Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zhwei.cn/tags/index.html</loc>
+    <loc>https://www.zhwei.cn/databases-mysql-normal-operate/</loc>
     
-    <lastmod>2020-02-15T08:58:01.472Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zhwei.cn/about/index.html</loc>
-    
-    <lastmod>2020-02-15T08:58:01.472Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zhwei.cn/timeline/index.html</loc>
-    
-    <lastmod>2020-02-15T08:58:01.472Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zhwei.cn/categories/index.html</loc>
-    
-    <lastmod>2020-02-15T08:58:01.472Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zhwei.cn/contact/index.html</loc>
-    
-    <lastmod>2020-02-15T08:58:01.472Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zhwei.cn/data/index.html</loc>
-    
-    <lastmod>2020-02-15T08:58:01.472Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zhwei.cn/friends/index.html</loc>
-    
-    <lastmod>2020-02-15T08:58:01.472Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zhwei.cn/project/index.html</loc>
-    
-    <lastmod>2020-02-15T08:58:01.472Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zhwei.cn/articles/index.html</loc>
-    
-    <lastmod>2020-02-15T08:58:01.472Z</lastmod>
+    <lastmod>2020-02-15T09:01:11.345Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.zhwei.cn/404/index.html</loc>
     
-    <lastmod>2020-02-15T08:58:01.468Z</lastmod>
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zhwei.cn/about/index.html</loc>
+    
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zhwei.cn/timeline/index.html</loc>
+    
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zhwei.cn/categories/index.html</loc>
+    
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zhwei.cn/contact/index.html</loc>
+    
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zhwei.cn/data/index.html</loc>
+    
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zhwei.cn/friends/index.html</loc>
+    
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zhwei.cn/project/index.html</loc>
+    
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zhwei.cn/tags/index.html</loc>
+    
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zhwei.cn/articles/index.html</loc>
+    
+    <lastmod>2020-02-15T09:00:45.633Z</lastmod>
     
   </url>
   

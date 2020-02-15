@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-02-15T08:58:30.880Z</updated>
+  <updated>2020-02-15T09:01:11.353Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
     <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
     <published>2020-01-14T05:07:23.000Z</published>
-    <updated>2020-02-15T08:58:30.880Z</updated>
+    <updated>2020-02-15T09:01:11.353Z</updated>
     
     <summary type="html">
     
@@ -52,11 +52,47 @@
   </entry>
   
   <entry>
+    <title>MySQL 教程：增删改查</title>
+    <link href="https://www.zhwei.cn/databases-mysql-normal-operate/"/>
+    <id>https://www.zhwei.cn/databases-mysql-normal-operate/</id>
+    <published>2018-10-11T09:26:19.000Z</published>
+    <updated>2020-02-15T09:01:11.345Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;b9cdb1ae&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;创建表&quot;&gt;&lt;a href=&quot;#创建表&quot; class=&quot;headerlink&quot; title=&quot;创建表&quot;&gt;&lt;/a&gt;创建表&lt;/h1&gt;&lt;pre class=&quot; language-sql&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.zhwei.cn/tags/MySQL/"/>
+    
+      <category term="databases" scheme="https://www.zhwei.cn/tags/databases/"/>
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
+    
+      <category term="sql增删改查" scheme="https://www.zhwei.cn/tags/sql%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL 教程：单表查询</title>
     <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
     <published>2018-10-11T09:22:38.000Z</published>
-    <updated>2020-02-15T08:58:30.880Z</updated>
+    <updated>2020-02-15T09:01:11.349Z</updated>
     
     <summary type="html">
     
@@ -92,7 +128,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-base-sql/"/>
     <id>https://www.zhwei.cn/databases-mysql-base-sql/</id>
     <published>2018-10-11T09:14:58.000Z</published>
-    <updated>2020-02-15T08:58:30.876Z</updated>
+    <updated>2020-02-15T09:01:11.349Z</updated>
     
     <summary type="html">
     
@@ -128,7 +164,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-many-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-many-query/</id>
     <published>2018-10-10T09:23:50.000Z</published>
-    <updated>2020-02-15T08:58:30.880Z</updated>
+    <updated>2020-02-15T09:01:11.349Z</updated>
     
     <summary type="html">
     
@@ -164,7 +200,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-aggregate-function/"/>
     <id>https://www.zhwei.cn/databases-mysql-aggregate-function/</id>
     <published>2018-10-09T09:27:16.000Z</published>
-    <updated>2020-02-15T08:58:30.876Z</updated>
+    <updated>2020-02-15T09:01:11.349Z</updated>
     
     <summary type="html">
     
