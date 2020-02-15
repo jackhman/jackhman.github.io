@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>Github Actions：云打包创建 docker 镜像</title>
+      <link href="/docker-build-image-github-actions/"/>
+      <url>/docker-build-image-github-actions/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>GitHub Actions是GitHub开源的一个平台。这一平台可以让开发者实现定制化的程序逻辑，而不需要专门创建一个应用去完成需要的任务。开发者可以借助 Actions 平台建立工作流，使用他们代码仓库中定义好的 action、或者 GitHub 公开代码库中的 action，甚至是一个公开的 Docker 容器镜像。action 在这里指的是开发、测试、部署和发布代码中的各种流程。在开发程序代码之外，有时候需要面对各种编译、测试和部署过程中的繁琐流程。这些流程往往需要手动完成，且由于不同开发者的开发环境、版本和平台不同，需要专门针对特定的环境定制工作流，十分麻烦。并且Github Actions平台是定制化的，可以使用 GitHub 的 API 和任何开源的第三方 API，以便于和代码库进行交互。</p></blockquote><p>对于<code>Github Actions</code>的使用在我博客中已经有很多的实例了，大家可以去看看。</p><p>对于<code>docker</code>的镜像打包也容易也复杂，容易的当然就是容器化本身就是简化操作，但是复杂一般来说就是生产环境和网络环境的配置，对于什么system其实大同小异，无论是centos、debian、macOS还有windows等等，环境搭建容易，但是一些可选包的安装需要一定的时间，网络环境就是速度慢，虽然可以通过“这样这样这样”访问墙外的地址，但是下载编译的时间也很慢，使用<code>Github Actions</code>可以说是一种推荐的选择了，因为其不需要物理机、不需要配置网络，毕竟其网络就是外外外网，所以下载速度还可以，原来还需要去更换源、使用加速，这回都不用了，而且我们从网页就可以进行操作。</p><p>其实2020年新升级的<code>全新Coding</code>也加入了持续集成功能，使用的是<code>Jenkinsfile</code>，我使用过jenkins但是对coding集成的还不熟悉，后面有时间在实践一下。</p><p><a name="e6cefb85"></a></p><h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><ul><li>根据Dockerfile打包成镜像</li><li>镜像推送到阿里云容器仓库（docker hub 大同小异）</li></ul><p><a name="f630b9a4"></a></p><h1 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h1><ol><li>注册阿里云容器镜像服务</li><li>在阿里云创建命名空间、镜像仓库，注意地区的选择！！！</li><li><code>github</code>上创建仓库，私有公有看自己需求</li><li>本地<code>git</code>上传打包所需要的文件，如Dockerfile、requirements.txt、entrypoint.sh等等</li><li>在创建的创库中配置所需要的变量，要用到的私密信息，如账号密码之类</li><li>在创建的仓库中开启<code>Actions</code></li><li>配置<code>YAML格式</code>的Actions配置文件</li><li>打包开始并自动<code>PUSH</code>到阿里云仓库</li></ol><p><a name="424a2ad8"></a></p><h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><ul><li>阿里云上自己操作</li><li>本地与<code>Github</code>的<code>SSH KEY密钥</code>配置</li><li>简单实例只用到阿里云的账号密码，故Github中<code>项目 --&gt; Setting --&gt; Secrets</code>定为<code>Aliyun_Username</code>和<code>Aliyun_Password</code>，填入自己信息</li><li>在创建的仓库中开启Actions会自动创建默认配置文件，即项目根目录下<code>./.github/workflows/main.yml</code>文件，在线修改即可，文件名可自定义</li></ul><p><a name="88815d3f"></a></p><h1 id="配置参考"><a href="#配置参考" class="headerlink" title="配置参考"></a>配置参考</h1><p>这里以一个例子说明，实现打包一个<code>python环境</code>的最小系统，里面包括我<code>django</code>博客中使用的python基础标准环境，安装<code>alpine</code>依赖：system update、system lib、mysqlclient、Pillow、bash</p><p>实现我的<code>django</code>镜像包，只需基于当前实例的最简python，安装所需要的python库，在配合<code>docker-compose</code>即可完成全部</p><p><a name="Dockerfile"></a></p><h2 id="Dockerfile"><a href="#Dockerfile" class="headerlink" title="Dockerfile"></a>Dockerfile</h2><pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 从仓库拉取 带有 python 3.7 的 Alpine Linux 环境</span>FROM python:3.7-alpine<span class="token comment" spellcheck="true"># 维护者信息</span>MAINTAINER  hongwei <span class="token string">"https://www.zhwei.cn/"</span><span class="token comment" spellcheck="true"># 添加alpine apk源，我在本地centos中添加索性就加上了，其实不加也行 </span>RUN <span class="token keyword">echo</span> <span class="token string">"http://mirrors.aliyun.com/alpine/latest-stable/community/"</span> <span class="token operator">>></span> /etc/apk/repositoriesRUN <span class="token keyword">echo</span> <span class="token string">"http://dl-cdn.alpinelinux.org/alpine/edge/community/"</span> <span class="token operator">>></span> /etc/apk/repositories<span class="token punctuation">;</span>RUN <span class="token keyword">echo</span> <span class="token string">"http://dl-2.alpinelinux.org/alpine/edge/community"</span> <span class="token operator">>></span> /etc/apk/repositories<span class="token punctuation">;</span>RUN <span class="token keyword">echo</span> <span class="token string">"http://dl-3.alpinelinux.org/alpine/edge/community"</span> <span class="token operator">>></span> /etc/apk/repositories<span class="token punctuation">;</span>RUN <span class="token keyword">echo</span> <span class="token string">"http://dl-4.alpinelinux.org/alpine/edge/community"</span> <span class="token operator">>></span> /etc/apk/repositories<span class="token punctuation">;</span>RUN <span class="token keyword">echo</span> <span class="token string">"http://dl-5.alpinelinux.org/alpine/edge/community"</span> <span class="token operator">>></span> /etc/apk/repositories<span class="token comment" spellcheck="true"># 安装alpine依赖，system update\ system lib\ mysqlclient\ Pillow\ bash</span>RUN apk update \    <span class="token operator">&amp;&amp;</span> apk add --no-cache linux-headers libffi-dev \    <span class="token operator">&amp;&amp;</span> apk add --no-cache gcc python3-dev musl-dev mariadb-dev\    <span class="token operator">&amp;&amp;</span> apk add --no-cache jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev \    <span class="token operator">&amp;&amp;</span> apk add --no-cache <span class="token function">bash</span> bash-doc bash-completion</code></pre><p><a name="main.yml"></a></p><h2 id="main-yml"><a href="#main-yml" class="headerlink" title="main.yml"></a>main.yml</h2><pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> CI Build python alpine 3.7<span class="token key atrule">on</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>push<span class="token punctuation">]</span><span class="token key atrule">jobs</span><span class="token punctuation">:</span>  <span class="token key atrule">build</span><span class="token punctuation">:</span>    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest    <span class="token key atrule">strategy</span><span class="token punctuation">:</span>      <span class="token key atrule">matrix</span><span class="token punctuation">:</span>        <span class="token key atrule">image-name</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>python<span class="token punctuation">]</span>        <span class="token key atrule">image-version</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>3.7<span class="token punctuation">-</span>alpine<span class="token punctuation">-</span>django<span class="token punctuation">]</span>    <span class="token key atrule">steps</span><span class="token punctuation">:</span>    <span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v1    <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> docker build and push aliyun      <span class="token key atrule">env</span><span class="token punctuation">:</span>        <span class="token key atrule">aliyun_username</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.Aliyun_Username <span class="token punctuation">}</span><span class="token punctuation">}</span>        <span class="token key atrule">aliyun_password</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.Aliyun_Password <span class="token punctuation">}</span><span class="token punctuation">}</span>      <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">        sudo docker login --username=${aliyun_username} registry.cn-beijing.aliyuncs.com --password=${{ secrets.aliyun_password }}        sudo docker build -t ${{ matrix.image-name }}:${{ matrix.image-version }} .        sudo docker tag ${{ matrix.image-name }}:${{ matrix.image-version }} registry.cn-beijing.aliyuncs.com/命名空间/镜像仓库:${{ matrix.image-version }}        sudo docker push registry.cn-beijing.aliyuncs.com/命名空间/镜像仓库:${{ matrix.image-version }}</span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> docker容器化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github Actions </tag>
+            
+            <tag> 持续集成 </tag>
+            
+            <tag> docker </tag>
+            
+            <tag> 云打包创建镜像 </tag>
+            
+            <tag> CI/CD </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HwTestReport：为unittest专属定制的测试报告</title>
       <link href="/hwttk-unittest-hwtestreport/"/>
       <url>/hwttk-unittest-hwtestreport/</url>
@@ -57,11 +90,11 @@
             
             <tag> 持续集成 </tag>
             
+            <tag> CI/CD </tag>
+            
             <tag> API </tag>
             
             <tag> Hexo </tag>
-            
-            <tag> CI/CD </tag>
             
         </tags>
       

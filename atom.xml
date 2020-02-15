@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-02-15T09:04:34.429Z</updated>
+  <updated>2020-02-15T09:06:30.476Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -17,11 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Github Actions：云打包创建 docker 镜像</title>
+    <link href="https://www.zhwei.cn/docker-build-image-github-actions/"/>
+    <id>https://www.zhwei.cn/docker-build-image-github-actions/</id>
+    <published>2020-01-22T05:08:22.000Z</published>
+    <updated>2020-02-15T09:06:30.476Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;GitHub Actions是GitHub开源的一个平台。这一平台可以让开发者实现定制化的程序逻辑，而不需要专门创建一个应用去完成需要的任务。开发者可以借助 Actions 平台建立工作流，使用他们代码仓库中定义好的 action、或者
+        
+      
+    
+    </summary>
+    
+    
+      <category term="docker容器化" scheme="https://www.zhwei.cn/categories/docker%E5%AE%B9%E5%99%A8%E5%8C%96/"/>
+    
+    
+      <category term="Github Actions" scheme="https://www.zhwei.cn/tags/Github-Actions/"/>
+    
+      <category term="持续集成" scheme="https://www.zhwei.cn/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+      <category term="docker" scheme="https://www.zhwei.cn/tags/docker/"/>
+    
+      <category term="云打包创建镜像" scheme="https://www.zhwei.cn/tags/%E4%BA%91%E6%89%93%E5%8C%85%E5%88%9B%E5%BB%BA%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="CI/CD" scheme="https://www.zhwei.cn/tags/CI-CD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HwTestReport：为unittest专属定制的测试报告</title>
     <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
     <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
     <published>2020-01-14T05:07:23.000Z</published>
-    <updated>2020-02-15T09:04:34.429Z</updated>
+    <updated>2020-02-15T09:06:30.480Z</updated>
     
     <summary type="html">
     
@@ -56,7 +92,7 @@
     <link href="https://www.zhwei.cn/github-actions-deploy-hexo-api/"/>
     <id>https://www.zhwei.cn/github-actions-deploy-hexo-api/</id>
     <published>2020-01-11T02:18:33.000Z</published>
-    <updated>2020-02-15T09:04:34.421Z</updated>
+    <updated>2020-02-15T09:06:30.476Z</updated>
     
     <summary type="html">
     
@@ -79,11 +115,11 @@
     
       <category term="持续集成" scheme="https://www.zhwei.cn/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
     
+      <category term="CI/CD" scheme="https://www.zhwei.cn/tags/CI-CD/"/>
+    
       <category term="API" scheme="https://www.zhwei.cn/tags/API/"/>
     
       <category term="Hexo" scheme="https://www.zhwei.cn/tags/Hexo/"/>
-    
-      <category term="CI/CD" scheme="https://www.zhwei.cn/tags/CI-CD/"/>
     
   </entry>
   
@@ -92,7 +128,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-normal-operate/"/>
     <id>https://www.zhwei.cn/databases-mysql-normal-operate/</id>
     <published>2018-10-11T09:26:19.000Z</published>
-    <updated>2020-02-15T09:04:34.425Z</updated>
+    <updated>2020-02-15T09:06:30.476Z</updated>
     
     <summary type="html">
     
@@ -128,7 +164,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
     <published>2018-10-11T09:22:38.000Z</published>
-    <updated>2020-02-15T09:04:34.425Z</updated>
+    <updated>2020-02-15T09:06:30.480Z</updated>
     
     <summary type="html">
     
@@ -164,7 +200,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-base-sql/"/>
     <id>https://www.zhwei.cn/databases-mysql-base-sql/</id>
     <published>2018-10-11T09:14:58.000Z</published>
-    <updated>2020-02-15T09:04:34.425Z</updated>
+    <updated>2020-02-15T09:06:30.476Z</updated>
     
     <summary type="html">
     
@@ -200,7 +236,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-many-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-many-query/</id>
     <published>2018-10-10T09:23:50.000Z</published>
-    <updated>2020-02-15T09:04:34.425Z</updated>
+    <updated>2020-02-15T09:06:30.480Z</updated>
     
     <summary type="html">
     
@@ -236,7 +272,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-aggregate-function/"/>
     <id>https://www.zhwei.cn/databases-mysql-aggregate-function/</id>
     <published>2018-10-09T09:27:16.000Z</published>
-    <updated>2020-02-15T09:04:34.425Z</updated>
+    <updated>2020-02-15T09:06:30.476Z</updated>
     
     <summary type="html">
     
