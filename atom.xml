@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-02-15T08:55:50.314Z</updated>
+  <updated>2020-02-15T08:58:30.880Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
     <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
     <published>2020-01-14T05:07:23.000Z</published>
-    <updated>2020-02-15T08:55:50.314Z</updated>
+    <updated>2020-02-15T08:58:30.880Z</updated>
     
     <summary type="html">
     
@@ -56,7 +56,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
     <published>2018-10-11T09:22:38.000Z</published>
-    <updated>2020-02-15T08:55:50.314Z</updated>
+    <updated>2020-02-15T08:58:30.880Z</updated>
     
     <summary type="html">
     
@@ -92,7 +92,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-base-sql/"/>
     <id>https://www.zhwei.cn/databases-mysql-base-sql/</id>
     <published>2018-10-11T09:14:58.000Z</published>
-    <updated>2020-02-15T08:55:50.310Z</updated>
+    <updated>2020-02-15T08:58:30.876Z</updated>
     
     <summary type="html">
     
@@ -128,7 +128,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-many-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-many-query/</id>
     <published>2018-10-10T09:23:50.000Z</published>
-    <updated>2020-02-15T08:55:50.314Z</updated>
+    <updated>2020-02-15T08:58:30.880Z</updated>
     
     <summary type="html">
     
@@ -156,6 +156,42 @@
       <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
     
       <category term="sql多表查询" scheme="https://www.zhwei.cn/tags/sql%E5%A4%9A%E8%A1%A8%E6%9F%A5%E8%AF%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 教程：聚合函数</title>
+    <link href="https://www.zhwei.cn/databases-mysql-aggregate-function/"/>
+    <id>https://www.zhwei.cn/databases-mysql-aggregate-function/</id>
+    <published>2018-10-09T09:27:16.000Z</published>
+    <updated>2020-02-15T08:58:30.876Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;71cc4c7f&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;聚合函数特点&quot;&gt;&lt;a href=&quot;#聚合函数特点&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.zhwei.cn/tags/MySQL/"/>
+    
+      <category term="databases" scheme="https://www.zhwei.cn/tags/databases/"/>
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
+    
+      <category term="sql聚合函数" scheme="https://www.zhwei.cn/tags/sql%E8%81%9A%E5%90%88%E5%87%BD%E6%95%B0/"/>
     
   </entry>
   
