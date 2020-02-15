@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-02-15T08:39:24.945Z</updated>
+  <updated>2020-02-15T08:44:49.871Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
     <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
     <published>2020-01-14T05:07:23.000Z</published>
-    <updated>2020-02-15T08:39:24.945Z</updated>
+    <updated>2020-02-15T08:44:49.871Z</updated>
     
     <summary type="html">
     
@@ -48,6 +48,42 @@
       <category term="Appium" scheme="https://www.zhwei.cn/tags/Appium/"/>
     
       <category term="Selenium" scheme="https://www.zhwei.cn/tags/Selenium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 教程：单表查询</title>
+    <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
+    <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
+    <published>2018-10-11T09:22:38.000Z</published>
+    <updated>2020-02-15T08:44:49.867Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;3cb64573&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;创建数据库并插入数据&quot;&gt;&lt;a href=&quot;#创建数据库并插入数据&quot; class=&quot;headerlink&quot; title=&quot;创建数据库并插入数据&quot;&gt;&lt;/a&gt;创建数据库并插入数据&lt;/h1&gt;&lt;pre
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.zhwei.cn/tags/MySQL/"/>
+    
+      <category term="databases" scheme="https://www.zhwei.cn/tags/databases/"/>
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
+    
+      <category term="sql单表查询" scheme="https://www.zhwei.cn/tags/sql%E5%8D%95%E8%A1%A8%E6%9F%A5%E8%AF%A2/"/>
     
   </entry>
   
