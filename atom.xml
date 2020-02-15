@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HONGWEI</title>
+  
+  <subtitle>Welcome to Johnny&#39;Blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.zhwei.cn/"/>
+  <updated>2020-02-15T08:19:40.337Z</updated>
+  <id>https://www.zhwei.cn/</id>
+  
+  <author>
+    <name>HONGWEI</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HwTestReport--为unittest专属定制的测试报告</title>
+    <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
+    <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
+    <published>2020-01-14T05:07:23.000Z</published>
+    <updated>2020-02-15T08:19:40.337Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;作为 &lt;a href=&quot;https://github.com/hongweifuture/HwTTK&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HwTTK（Test Tool Kit
+        
+      
+    
+    </summary>
+    
+    
+      <category term="HwTTK" scheme="https://www.zhwei.cn/categories/HwTTK/"/>
+    
+    
+      <category term="HTMLTestRunner" scheme="https://www.zhwei.cn/tags/HTMLTestRunner/"/>
+    
+      <category term="unittest" scheme="https://www.zhwei.cn/tags/unittest/"/>
+    
+      <category term="python" scheme="https://www.zhwei.cn/tags/python/"/>
+    
+      <category term="Appium" scheme="https://www.zhwei.cn/tags/Appium/"/>
+    
+      <category term="Selenium" scheme="https://www.zhwei.cn/tags/Selenium/"/>
+    
+  </entry>
+  
+</feed>
