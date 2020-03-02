@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-03-02T16:34:10.724Z</updated>
+  <updated>2020-03-02T16:39:36.736Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.zhwei.cn/Valine-Admin-Gravatar/"/>
     <id>https://www.zhwei.cn/Valine-Admin-Gravatar/</id>
     <published>2020-03-02T15:05:22.000Z</published>
-    <updated>2020-03-02T16:34:10.724Z</updated>
+    <updated>2020-03-02T16:39:36.736Z</updated>
     
     <summary type="html">
     
@@ -49,6 +49,365 @@
       <category term="评论系统" scheme="https://www.zhwei.cn/tags/%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
     
       <category term="Gravatar" scheme="https://www.zhwei.cn/tags/Gravatar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github Actions：云打包创建 docker 镜像</title>
+    <link href="https://www.zhwei.cn/docker-build-image-github-actions/"/>
+    <id>https://www.zhwei.cn/docker-build-image-github-actions/</id>
+    <published>2020-01-22T05:08:22.000Z</published>
+    <updated>2020-03-02T16:39:36.740Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;GitHub Actions是GitHub开源的一个平台。这一平台可以让开发者实现定制化的程序逻辑，而不需要专门创建一个应用去完成需要的任务。开发者可以借助 Actions 平台建立工作流，使用他们代码仓库中定义好的 action、或者
+        
+      
+    
+    </summary>
+    
+    
+      <category term="持续集成和交付" scheme="https://www.zhwei.cn/categories/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E5%92%8C%E4%BA%A4%E4%BB%98/"/>
+    
+    
+      <category term="Github Actions" scheme="https://www.zhwei.cn/tags/Github-Actions/"/>
+    
+      <category term="持续集成" scheme="https://www.zhwei.cn/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+      <category term="docker" scheme="https://www.zhwei.cn/tags/docker/"/>
+    
+      <category term="云打包创建镜像" scheme="https://www.zhwei.cn/tags/%E4%BA%91%E6%89%93%E5%8C%85%E5%88%9B%E5%BB%BA%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="CI/CD" scheme="https://www.zhwei.cn/tags/CI-CD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HwTestReport：为unittest专属定制的测试报告</title>
+    <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
+    <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
+    <published>2020-01-14T05:07:23.000Z</published>
+    <updated>2020-03-02T16:39:36.752Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;作为 &lt;a href=&quot;https://github.com/hongweifuture/HwTTK&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HwTTK（Test Tool Kit
+        
+      
+    
+    </summary>
+    
+    
+      <category term="HwTTK" scheme="https://www.zhwei.cn/categories/HwTTK/"/>
+    
+    
+      <category term="HTMLTestRunner" scheme="https://www.zhwei.cn/tags/HTMLTestRunner/"/>
+    
+      <category term="unittest" scheme="https://www.zhwei.cn/tags/unittest/"/>
+    
+      <category term="python" scheme="https://www.zhwei.cn/tags/python/"/>
+    
+      <category term="Appium" scheme="https://www.zhwei.cn/tags/Appium/"/>
+    
+      <category term="Selenium" scheme="https://www.zhwei.cn/tags/Selenium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github Actions：通过 SSH 自动部署 Hexo</title>
+    <link href="https://www.zhwei.cn/github-actions-deploy-hexo-ssh/"/>
+    <id>https://www.zhwei.cn/github-actions-deploy-hexo-ssh/</id>
+    <published>2020-01-11T03:08:22.000Z</published>
+    <updated>2020-03-02T16:39:36.740Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;be033ff6&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Hexo的自动部署&quot;&gt;&lt;a href=&quot;#Hexo的自动部署&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="持续集成和交付" scheme="https://www.zhwei.cn/categories/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E5%92%8C%E4%BA%A4%E4%BB%98/"/>
+    
+    
+      <category term="Github Actions" scheme="https://www.zhwei.cn/tags/Github-Actions/"/>
+    
+      <category term="持续集成" scheme="https://www.zhwei.cn/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+      <category term="CI/CD" scheme="https://www.zhwei.cn/tags/CI-CD/"/>
+    
+      <category term="SSH" scheme="https://www.zhwei.cn/tags/SSH/"/>
+    
+      <category term="Hexo" scheme="https://www.zhwei.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github Actions：通过 API 自动部署 Hexo</title>
+    <link href="https://www.zhwei.cn/github-actions-deploy-hexo-api/"/>
+    <id>https://www.zhwei.cn/github-actions-deploy-hexo-api/</id>
+    <published>2020-01-11T02:18:33.000Z</published>
+    <updated>2020-03-02T16:39:36.740Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;be033ff6&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Hexo的自动部署&quot;&gt;&lt;a href=&quot;#Hexo的自动部署&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="持续集成和交付" scheme="https://www.zhwei.cn/categories/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E5%92%8C%E4%BA%A4%E4%BB%98/"/>
+    
+    
+      <category term="Github Actions" scheme="https://www.zhwei.cn/tags/Github-Actions/"/>
+    
+      <category term="持续集成" scheme="https://www.zhwei.cn/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+      <category term="CI/CD" scheme="https://www.zhwei.cn/tags/CI-CD/"/>
+    
+      <category term="Hexo" scheme="https://www.zhwei.cn/tags/Hexo/"/>
+    
+      <category term="API" scheme="https://www.zhwei.cn/tags/API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github Actions：通过 SSH 自动备份代码到托管网站</title>
+    <link href="https://www.zhwei.cn/github-actions-backup-code/"/>
+    <id>https://www.zhwei.cn/github-actions-backup-code/</id>
+    <published>2020-01-09T02:22:11.000Z</published>
+    <updated>2020-03-02T16:39:36.736Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;e6cefb85&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="持续集成和交付" scheme="https://www.zhwei.cn/categories/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E5%92%8C%E4%BA%A4%E4%BB%98/"/>
+    
+    
+      <category term="Github Actions" scheme="https://www.zhwei.cn/tags/Github-Actions/"/>
+    
+      <category term="持续集成" scheme="https://www.zhwei.cn/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+      <category term="CI/CD" scheme="https://www.zhwei.cn/tags/CI-CD/"/>
+    
+      <category term="SSH" scheme="https://www.zhwei.cn/tags/SSH/"/>
+    
+      <category term="Hexo" scheme="https://www.zhwei.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 教程：增删改查</title>
+    <link href="https://www.zhwei.cn/databases-mysql-normal-operate/"/>
+    <id>https://www.zhwei.cn/databases-mysql-normal-operate/</id>
+    <published>2018-10-11T09:26:19.000Z</published>
+    <updated>2020-03-02T16:39:36.740Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;b9cdb1ae&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;创建表&quot;&gt;&lt;a href=&quot;#创建表&quot; class=&quot;headerlink&quot; title=&quot;创建表&quot;&gt;&lt;/a&gt;创建表&lt;/h1&gt;&lt;pre class=&quot; language-sql&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.zhwei.cn/tags/MySQL/"/>
+    
+      <category term="databases" scheme="https://www.zhwei.cn/tags/databases/"/>
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
+    
+      <category term="sql增删改查" scheme="https://www.zhwei.cn/tags/sql%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 教程：单表查询</title>
+    <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
+    <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
+    <published>2018-10-11T09:22:38.000Z</published>
+    <updated>2020-03-02T16:39:36.748Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;3cb64573&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;创建数据库并插入数据&quot;&gt;&lt;a href=&quot;#创建数据库并插入数据&quot; class=&quot;headerlink&quot; title=&quot;创建数据库并插入数据&quot;&gt;&lt;/a&gt;创建数据库并插入数据&lt;/h1&gt;&lt;pre
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.zhwei.cn/tags/MySQL/"/>
+    
+      <category term="databases" scheme="https://www.zhwei.cn/tags/databases/"/>
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
+    
+      <category term="sql单表查询" scheme="https://www.zhwei.cn/tags/sql%E5%8D%95%E8%A1%A8%E6%9F%A5%E8%AF%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 教程：基础语句</title>
+    <link href="https://www.zhwei.cn/databases-mysql-base-sql/"/>
+    <id>https://www.zhwei.cn/databases-mysql-base-sql/</id>
+    <published>2018-10-11T09:14:58.000Z</published>
+    <updated>2020-03-02T16:39:36.748Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;6c182d8d&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;数据库基础操作&quot;&gt;&lt;a href=&quot;#数据库基础操作&quot; class=&quot;headerlink&quot; title=&quot;数据库基础操作&quot;&gt;&lt;/a&gt;数据库基础操作&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.zhwei.cn/tags/MySQL/"/>
+    
+      <category term="databases" scheme="https://www.zhwei.cn/tags/databases/"/>
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
+    
+      <category term="sql基础" scheme="https://www.zhwei.cn/tags/sql%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 教程：多表查询</title>
+    <link href="https://www.zhwei.cn/databases-mysql-many-query/"/>
+    <id>https://www.zhwei.cn/databases-mysql-many-query/</id>
+    <published>2018-10-10T09:23:50.000Z</published>
+    <updated>2020-03-02T16:39:36.748Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;3cb64573&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;创建数据库并插入数据&quot;&gt;&lt;a href=&quot;#创建数据库并插入数据&quot; class=&quot;headerlink&quot; title=&quot;创建数据库并插入数据&quot;&gt;&lt;/a&gt;创建数据库并插入数据&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.zhwei.cn/tags/MySQL/"/>
+    
+      <category term="databases" scheme="https://www.zhwei.cn/tags/databases/"/>
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
+    
+      <category term="sql多表查询" scheme="https://www.zhwei.cn/tags/sql%E5%A4%9A%E8%A1%A8%E6%9F%A5%E8%AF%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 教程：聚合函数</title>
+    <link href="https://www.zhwei.cn/databases-mysql-aggregate-function/"/>
+    <id>https://www.zhwei.cn/databases-mysql-aggregate-function/</id>
+    <published>2018-10-09T09:27:16.000Z</published>
+    <updated>2020-03-02T16:39:36.744Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;71cc4c7f&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;聚合函数特点&quot;&gt;&lt;a href=&quot;#聚合函数特点&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.zhwei.cn/tags/MySQL/"/>
+    
+      <category term="databases" scheme="https://www.zhwei.cn/tags/databases/"/>
+    
+      <category term="数据库" scheme="https://www.zhwei.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
+    
+      <category term="sql聚合函数" scheme="https://www.zhwei.cn/tags/sql%E8%81%9A%E5%90%88%E5%87%BD%E6%95%B0/"/>
     
   </entry>
   
