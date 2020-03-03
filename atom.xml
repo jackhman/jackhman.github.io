@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-03-03T05:26:18.213Z</updated>
+  <updated>2020-03-03T05:33:30.290Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo 语雀云端写作 Github Actions持续集成</title>
-    <link href="https://www.zhwei.cn/rhst0c/"/>
-    <id>https://www.zhwei.cn/rhst0c/</id>
-    <published>2020-03-03T04:05:07.000Z</published>
-    <updated>2020-03-03T05:26:18.213Z</updated>
+    <title>Hexo:语雀云端写作 Github Actions 持续集成</title>
+    <link href="https://www.zhwei.cn/hexo-github-actions-yuque/"/>
+    <id>https://www.zhwei.cn/hexo-github-actions-yuque/</id>
+    <published>2020-03-02T15:18:33.000Z</published>
+    <updated>2020-03-03T05:33:30.290Z</updated>
     
     <summary type="html">
     
@@ -29,14 +29,31 @@
       
         
         
-          &lt;hr&gt;
-&lt;p&gt;title: Hexo: 语雀云端写作 Github Actions 持续集成&lt;br&gt;author: hongwei&lt;br&gt;top: true&lt;br&gt;cover: false&lt;br&gt;coverImg:
+          &lt;p&gt;使用 Hexo 静态博客网站发表文章，需要&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;本地以Markdown的形式写好文章&lt;/li&gt;
+&lt;li&gt;借助 Hexo 生成静态页面&lt;/li&gt;
+&lt;li&gt;部署到云主机或者通过 git 到托管平台&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;既然要本地借助 &lt;a
         
       
     
     </summary>
     
     
+      <category term="Hexo" scheme="https://www.zhwei.cn/categories/Hexo/"/>
+    
+    
+      <category term="Github Actions" scheme="https://www.zhwei.cn/tags/Github-Actions/"/>
+    
+      <category term="持续集成" scheme="https://www.zhwei.cn/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+      <category term="CI/CD" scheme="https://www.zhwei.cn/tags/CI-CD/"/>
+    
+      <category term="Hexo" scheme="https://www.zhwei.cn/tags/Hexo/"/>
+    
+      <category term="语雀" scheme="https://www.zhwei.cn/tags/%E8%AF%AD%E9%9B%80/"/>
     
   </entry>
   
@@ -45,7 +62,7 @@
     <link href="https://www.zhwei.cn/Valine-Admin-Gravatar/"/>
     <id>https://www.zhwei.cn/Valine-Admin-Gravatar/</id>
     <published>2020-03-02T15:05:22.000Z</published>
-    <updated>2020-03-03T05:26:18.213Z</updated>
+    <updated>2020-03-03T05:33:30.290Z</updated>
     
     <summary type="html">
     
@@ -81,7 +98,7 @@
     <link href="https://www.zhwei.cn/docker-build-image-github-actions/"/>
     <id>https://www.zhwei.cn/docker-build-image-github-actions/</id>
     <published>2020-01-22T05:08:22.000Z</published>
-    <updated>2020-03-03T05:26:18.217Z</updated>
+    <updated>2020-03-03T05:33:30.294Z</updated>
     
     <summary type="html">
     
@@ -117,7 +134,7 @@
     <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
     <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
     <published>2020-01-14T05:07:23.000Z</published>
-    <updated>2020-03-03T05:26:18.225Z</updated>
+    <updated>2020-03-03T05:33:30.298Z</updated>
     
     <summary type="html">
     
@@ -152,7 +169,7 @@
     <link href="https://www.zhwei.cn/github-actions-deploy-hexo-ssh/"/>
     <id>https://www.zhwei.cn/github-actions-deploy-hexo-ssh/</id>
     <published>2020-01-11T03:08:22.000Z</published>
-    <updated>2020-03-03T05:26:18.217Z</updated>
+    <updated>2020-03-03T05:33:30.294Z</updated>
     
     <summary type="html">
     
@@ -188,7 +205,7 @@
     <link href="https://www.zhwei.cn/github-actions-deploy-hexo-api/"/>
     <id>https://www.zhwei.cn/github-actions-deploy-hexo-api/</id>
     <published>2020-01-11T02:18:33.000Z</published>
-    <updated>2020-03-03T05:26:18.217Z</updated>
+    <updated>2020-03-03T05:33:30.294Z</updated>
     
     <summary type="html">
     
@@ -224,7 +241,7 @@
     <link href="https://www.zhwei.cn/github-actions-backup-code/"/>
     <id>https://www.zhwei.cn/github-actions-backup-code/</id>
     <published>2020-01-09T02:22:11.000Z</published>
-    <updated>2020-03-03T05:26:18.213Z</updated>
+    <updated>2020-03-03T05:33:30.290Z</updated>
     
     <summary type="html">
     
@@ -260,7 +277,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-normal-operate/"/>
     <id>https://www.zhwei.cn/databases-mysql-normal-operate/</id>
     <published>2018-10-11T09:26:19.000Z</published>
-    <updated>2020-03-03T05:26:18.217Z</updated>
+    <updated>2020-03-03T05:33:30.294Z</updated>
     
     <summary type="html">
     
@@ -296,7 +313,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
     <published>2018-10-11T09:22:38.000Z</published>
-    <updated>2020-03-03T05:26:18.221Z</updated>
+    <updated>2020-03-03T05:33:30.298Z</updated>
     
     <summary type="html">
     
@@ -332,7 +349,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-base-sql/"/>
     <id>https://www.zhwei.cn/databases-mysql-base-sql/</id>
     <published>2018-10-11T09:14:58.000Z</published>
-    <updated>2020-03-03T05:26:18.221Z</updated>
+    <updated>2020-03-03T05:33:30.294Z</updated>
     
     <summary type="html">
     
@@ -368,7 +385,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-many-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-many-query/</id>
     <published>2018-10-10T09:23:50.000Z</published>
-    <updated>2020-03-03T05:26:18.221Z</updated>
+    <updated>2020-03-03T05:33:30.298Z</updated>
     
     <summary type="html">
     
@@ -404,7 +421,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-aggregate-function/"/>
     <id>https://www.zhwei.cn/databases-mysql-aggregate-function/</id>
     <published>2018-10-09T09:27:16.000Z</published>
-    <updated>2020-03-03T05:26:18.217Z</updated>
+    <updated>2020-03-03T05:33:30.294Z</updated>
     
     <summary type="html">
     
