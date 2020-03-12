@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-03-12T04:37:18.218Z</updated>
+  <updated>2020-03-12T05:06:41.174Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.zhwei.cn/Valine-Admin-Gravatar/"/>
     <id>https://www.zhwei.cn/Valine-Admin-Gravatar/</id>
     <published>2020-03-03T08:11:22.000Z</published>
-    <updated>2020-03-12T04:37:18.218Z</updated>
+    <updated>2020-03-12T05:06:41.174Z</updated>
     
     <summary type="html">
     
@@ -57,7 +57,7 @@
     <link href="https://www.zhwei.cn/hexo-github-actions-yuque/"/>
     <id>https://www.zhwei.cn/hexo-github-actions-yuque/</id>
     <published>2020-03-02T15:15:33.000Z</published>
-    <updated>2020-03-12T04:37:18.226Z</updated>
+    <updated>2020-03-12T05:06:41.178Z</updated>
     
     <summary type="html">
     
@@ -93,7 +93,7 @@
     <link href="https://www.zhwei.cn/docker-build-image-github-actions/"/>
     <id>https://www.zhwei.cn/docker-build-image-github-actions/</id>
     <published>2020-01-22T05:08:22.000Z</published>
-    <updated>2020-03-12T04:37:18.230Z</updated>
+    <updated>2020-03-12T05:06:41.178Z</updated>
     
     <summary type="html">
     
@@ -129,7 +129,7 @@
     <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
     <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
     <published>2020-01-14T05:07:23.000Z</published>
-    <updated>2020-03-12T04:37:18.238Z</updated>
+    <updated>2020-03-12T05:06:41.186Z</updated>
     
     <summary type="html">
     
@@ -147,11 +147,11 @@
       <category term="HwTTK" scheme="https://www.zhwei.cn/categories/HwTTK/"/>
     
     
+      <category term="python" scheme="https://www.zhwei.cn/tags/python/"/>
+    
       <category term="HTMLTestRunner" scheme="https://www.zhwei.cn/tags/HTMLTestRunner/"/>
     
       <category term="unittest" scheme="https://www.zhwei.cn/tags/unittest/"/>
-    
-      <category term="python" scheme="https://www.zhwei.cn/tags/python/"/>
     
       <category term="Appium" scheme="https://www.zhwei.cn/tags/Appium/"/>
     
@@ -164,7 +164,7 @@
     <link href="https://www.zhwei.cn/github-actions-deploy-hexo-ssh/"/>
     <id>https://www.zhwei.cn/github-actions-deploy-hexo-ssh/</id>
     <published>2020-01-11T03:08:22.000Z</published>
-    <updated>2020-03-12T04:37:18.226Z</updated>
+    <updated>2020-03-12T05:06:41.178Z</updated>
     
     <summary type="html">
     
@@ -200,7 +200,7 @@
     <link href="https://www.zhwei.cn/github-actions-deploy-hexo-api/"/>
     <id>https://www.zhwei.cn/github-actions-deploy-hexo-api/</id>
     <published>2020-01-11T02:18:33.000Z</published>
-    <updated>2020-03-12T04:37:18.230Z</updated>
+    <updated>2020-03-12T05:06:41.178Z</updated>
     
     <summary type="html">
     
@@ -236,7 +236,7 @@
     <link href="https://www.zhwei.cn/github-actions-backup-code/"/>
     <id>https://www.zhwei.cn/github-actions-backup-code/</id>
     <published>2020-01-09T02:22:11.000Z</published>
-    <updated>2020-03-12T04:37:18.226Z</updated>
+    <updated>2020-03-12T05:06:41.178Z</updated>
     
     <summary type="html">
     
@@ -272,7 +272,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-normal-operate/"/>
     <id>https://www.zhwei.cn/databases-mysql-normal-operate/</id>
     <published>2018-10-11T09:26:19.000Z</published>
-    <updated>2020-03-12T04:37:18.230Z</updated>
+    <updated>2020-03-12T05:06:41.182Z</updated>
     
     <summary type="html">
     
@@ -308,7 +308,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
     <published>2018-10-11T09:22:38.000Z</published>
-    <updated>2020-03-12T04:37:18.234Z</updated>
+    <updated>2020-03-12T05:06:41.182Z</updated>
     
     <summary type="html">
     
@@ -344,7 +344,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-base-sql/"/>
     <id>https://www.zhwei.cn/databases-mysql-base-sql/</id>
     <published>2018-10-11T09:14:58.000Z</published>
-    <updated>2020-03-12T04:37:18.234Z</updated>
+    <updated>2020-03-12T05:06:41.182Z</updated>
     
     <summary type="html">
     
@@ -380,7 +380,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-many-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-many-query/</id>
     <published>2018-10-10T09:23:50.000Z</published>
-    <updated>2020-03-12T04:37:18.234Z</updated>
+    <updated>2020-03-12T05:06:41.182Z</updated>
     
     <summary type="html">
     
@@ -416,7 +416,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-aggregate-function/"/>
     <id>https://www.zhwei.cn/databases-mysql-aggregate-function/</id>
     <published>2018-10-09T09:27:16.000Z</published>
-    <updated>2020-03-12T04:37:18.230Z</updated>
+    <updated>2020-03-12T05:06:41.182Z</updated>
     
     <summary type="html">
     
@@ -444,6 +444,38 @@
       <category term="web" scheme="https://www.zhwei.cn/tags/web/"/>
     
       <category term="sql聚合函数" scheme="https://www.zhwei.cn/tags/sql%E8%81%9A%E5%90%88%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python 使用 Selenium，设置浏览器不弹窗，下载文件到指定位置</title>
+    <link href="https://www.zhwei.cn/python-selenium-download/"/>
+    <id>https://www.zhwei.cn/python-selenium-download/</id>
+    <published>2017-04-06T08:55:37.000Z</published>
+    <updated>2020-03-12T05:06:41.174Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;aaaee3ba&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Firefox-文件下载&quot;&gt;&lt;a href=&quot;#Firefox-文件下载&quot; class=&quot;headerlink&quot; title=&quot;Firefox 文件下载&quot;&gt;&lt;/a&gt;Firefox
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Selenium" scheme="https://www.zhwei.cn/categories/Selenium/"/>
+    
+    
+      <category term="python" scheme="https://www.zhwei.cn/tags/python/"/>
+    
+      <category term="selenium" scheme="https://www.zhwei.cn/tags/selenium/"/>
+    
+      <category term="webdriver" scheme="https://www.zhwei.cn/tags/webdriver/"/>
     
   </entry>
   
