@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhwei.cn/"/>
-  <updated>2020-03-18T17:33:42.912Z</updated>
+  <updated>2020-03-18T17:39:43.911Z</updated>
   <id>https://www.zhwei.cn/</id>
   
   <author>
@@ -17,35 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>ProxmoxVE技巧：关闭订阅通知“无有效订阅”</title>
-    <link href="https://www.zhwei.cn/gb4bsg/"/>
-    <id>https://www.zhwei.cn/gb4bsg/</id>
-    <published>2020-03-18T17:19:53.000Z</published>
-    <updated>2020-03-18T17:33:42.912Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;p&gt;title: Proxmox VE 技巧：关闭订阅通知“无有效订阅”&lt;br&gt;author: hongwei&lt;br&gt;top: false&lt;br&gt;cover: false&lt;br&gt;coverImg:
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>基于 Docker 的 Django 容器化部署之三：定时备份，两步实现服务器迁移</title>
     <link href="https://www.zhwei.cn/django-docker-backup-restore/"/>
     <id>https://www.zhwei.cn/django-docker-backup-restore/</id>
     <published>2020-03-18T17:03:46.000Z</published>
-    <updated>2020-03-18T17:33:42.916Z</updated>
+    <updated>2020-03-18T17:39:43.911Z</updated>
     
     <summary type="html">
     
@@ -80,7 +56,7 @@
     <link href="https://www.zhwei.cn/django-docker-compose-deploy/"/>
     <id>https://www.zhwei.cn/django-docker-compose-deploy/</id>
     <published>2020-03-18T16:55:46.000Z</published>
-    <updated>2020-03-18T17:33:42.916Z</updated>
+    <updated>2020-03-18T17:39:43.911Z</updated>
     
     <summary type="html">
     
@@ -115,7 +91,7 @@
     <link href="https://www.zhwei.cn/django-docker-images/"/>
     <id>https://www.zhwei.cn/django-docker-images/</id>
     <published>2020-03-18T16:46:46.000Z</published>
-    <updated>2020-03-18T17:33:42.916Z</updated>
+    <updated>2020-03-18T17:39:43.915Z</updated>
     
     <summary type="html">
     
@@ -150,7 +126,7 @@
     <link href="https://www.zhwei.cn/Valine-Admin-Gravatar/"/>
     <id>https://www.zhwei.cn/Valine-Admin-Gravatar/</id>
     <published>2020-03-03T08:11:22.000Z</published>
-    <updated>2020-03-18T17:33:42.920Z</updated>
+    <updated>2020-03-18T17:39:43.915Z</updated>
     
     <summary type="html">
     
@@ -186,7 +162,7 @@
     <link href="https://www.zhwei.cn/hexo-github-actions-yuque/"/>
     <id>https://www.zhwei.cn/hexo-github-actions-yuque/</id>
     <published>2020-03-02T15:15:33.000Z</published>
-    <updated>2020-03-18T17:33:42.920Z</updated>
+    <updated>2020-03-18T17:39:43.919Z</updated>
     
     <summary type="html">
     
@@ -222,7 +198,7 @@
     <link href="https://www.zhwei.cn/docker-build-image-github-actions/"/>
     <id>https://www.zhwei.cn/docker-build-image-github-actions/</id>
     <published>2020-01-22T05:08:22.000Z</published>
-    <updated>2020-03-18T17:33:42.924Z</updated>
+    <updated>2020-03-18T17:39:43.923Z</updated>
     
     <summary type="html">
     
@@ -258,7 +234,7 @@
     <link href="https://www.zhwei.cn/hwttk-unittest-hwtestreport/"/>
     <id>https://www.zhwei.cn/hwttk-unittest-hwtestreport/</id>
     <published>2020-01-14T05:07:23.000Z</published>
-    <updated>2020-03-18T17:33:42.932Z</updated>
+    <updated>2020-03-18T17:39:43.931Z</updated>
     
     <summary type="html">
     
@@ -293,7 +269,7 @@
     <link href="https://www.zhwei.cn/github-actions-deploy-hexo-ssh/"/>
     <id>https://www.zhwei.cn/github-actions-deploy-hexo-ssh/</id>
     <published>2020-01-11T03:08:22.000Z</published>
-    <updated>2020-03-18T17:33:42.924Z</updated>
+    <updated>2020-03-18T17:39:43.919Z</updated>
     
     <summary type="html">
     
@@ -329,7 +305,7 @@
     <link href="https://www.zhwei.cn/github-actions-deploy-hexo-api/"/>
     <id>https://www.zhwei.cn/github-actions-deploy-hexo-api/</id>
     <published>2020-01-11T02:18:33.000Z</published>
-    <updated>2020-03-18T17:33:42.924Z</updated>
+    <updated>2020-03-18T17:39:43.923Z</updated>
     
     <summary type="html">
     
@@ -365,7 +341,7 @@
     <link href="https://www.zhwei.cn/github-actions-backup-code/"/>
     <id>https://www.zhwei.cn/github-actions-backup-code/</id>
     <published>2020-01-09T02:22:11.000Z</published>
-    <updated>2020-03-18T17:33:42.924Z</updated>
+    <updated>2020-03-18T17:39:43.919Z</updated>
     
     <summary type="html">
     
@@ -397,11 +373,48 @@
   </entry>
   
   <entry>
+    <title>Proxmox VE 技巧：关闭订阅通知“无有效订阅”</title>
+    <link href="https://www.zhwei.cn/proxmox-ve-cancel-subscription/"/>
+    <id>https://www.zhwei.cn/proxmox-ve-cancel-subscription/</id>
+    <published>2020-01-05T03:03:46.000Z</published>
+    <updated>2020-03-18T17:39:43.911Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a name=&quot;52e9675e&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;版本和软件&quot;&gt;&lt;a href=&quot;#版本和软件&quot; class=&quot;headerlink&quot; title=&quot;版本和软件&quot;&gt;&lt;/a&gt;版本和软件&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Virtual Environment
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Proxmox VE" scheme="https://www.zhwei.cn/categories/Proxmox-VE/"/>
+    
+    
+      <category term="pve" scheme="https://www.zhwei.cn/tags/pve/"/>
+    
+      <category term="虚拟化" scheme="https://www.zhwei.cn/tags/%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+    
+      <category term="QEMU" scheme="https://www.zhwei.cn/tags/QEMU/"/>
+    
+      <category term="KVM" scheme="https://www.zhwei.cn/tags/KVM/"/>
+    
+      <category term="LXC" scheme="https://www.zhwei.cn/tags/LXC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL 教程：增删改查</title>
     <link href="https://www.zhwei.cn/databases-mysql-normal-operate/"/>
     <id>https://www.zhwei.cn/databases-mysql-normal-operate/</id>
     <published>2018-10-11T09:26:19.000Z</published>
-    <updated>2020-03-18T17:33:42.928Z</updated>
+    <updated>2020-03-18T17:39:43.923Z</updated>
     
     <summary type="html">
     
@@ -437,7 +450,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-singl-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-singl-query/</id>
     <published>2018-10-11T09:22:38.000Z</published>
-    <updated>2020-03-18T17:33:42.928Z</updated>
+    <updated>2020-03-18T17:39:43.927Z</updated>
     
     <summary type="html">
     
@@ -473,7 +486,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-base-sql/"/>
     <id>https://www.zhwei.cn/databases-mysql-base-sql/</id>
     <published>2018-10-11T09:14:58.000Z</published>
-    <updated>2020-03-18T17:33:42.928Z</updated>
+    <updated>2020-03-18T17:39:43.927Z</updated>
     
     <summary type="html">
     
@@ -509,7 +522,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-many-query/"/>
     <id>https://www.zhwei.cn/databases-mysql-many-query/</id>
     <published>2018-10-10T09:23:50.000Z</published>
-    <updated>2020-03-18T17:33:42.928Z</updated>
+    <updated>2020-03-18T17:39:43.927Z</updated>
     
     <summary type="html">
     
@@ -545,7 +558,7 @@
     <link href="https://www.zhwei.cn/databases-mysql-aggregate-function/"/>
     <id>https://www.zhwei.cn/databases-mysql-aggregate-function/</id>
     <published>2018-10-09T09:27:16.000Z</published>
-    <updated>2020-03-18T17:33:42.928Z</updated>
+    <updated>2020-03-18T17:39:43.927Z</updated>
     
     <summary type="html">
     
@@ -581,7 +594,7 @@
     <link href="https://www.zhwei.cn/python-selenium-download/"/>
     <id>https://www.zhwei.cn/python-selenium-download/</id>
     <published>2017-04-06T08:55:37.000Z</published>
-    <updated>2020-03-18T17:33:42.920Z</updated>
+    <updated>2020-03-18T17:39:43.915Z</updated>
     
     <summary type="html">
     
@@ -613,7 +626,7 @@
     <link href="https://www.zhwei.cn/python-selenium-xpath-css/"/>
     <id>https://www.zhwei.cn/python-selenium-xpath-css/</id>
     <published>2017-02-22T02:00:37.000Z</published>
-    <updated>2020-03-18T17:33:42.920Z</updated>
+    <updated>2020-03-18T17:39:43.915Z</updated>
     
     <summary type="html">
     
