@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@types/nprogress": "^0.2.1",
+    "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
+    "increase-memory-limit": "^1.0.7",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.2",
+    "vitepress": "^1.0.0-rc.20"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev --host",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview --host",
+    "limit": "cross-env LIMIT=36000 increase-memory-limit && node fix-memory-limit.config.cjs"
+  },
+  "dependencies": {
+    "confetti-js": "^0.0.18",
+    "element-plus": "^2.3.14",
+    "markdown-it-title": "^4.0.0",
+    "nprogress": "^0.2.0",
+    "query-string": "^8.1.0",
+    "unplugin-element-plus": "^0.8.0",
+    "url-parse": "^1.5.10",
+    "vue": "^3.3.4"
+  }
+}
